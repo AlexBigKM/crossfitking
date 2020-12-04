@@ -1,0 +1,178 @@
+@media screen and (max-width: 1200px) {
+    .header__slider-item {
+        font-size: 20px;
+    }
+    .accordion__container {
+        max-width: 700px;
+        position: unset;
+    }
+    .price__social {
+        position: unset;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        float: right;
+    }
+    .price__btn {
+        margin-top: 100px;
+    }
+    .personal {
+        top: 30px;
+    }
+    .personal__background { 
+        left: 30px;
+        font-size: 210px;
+        top: 960px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .container {
+        margin: 0 90px;
+    }
+    .about {
+        margin-top: 130px;
+    }
+    .header__menu {
+        width: 15%;
+    }
+    .header__slider {
+        margin-left: 120px;
+    }
+    .header__btn {
+        bottom: -33px;
+        left: 180px;
+    }
+    .personal__background {
+        left: -225px;
+        font-size: 165px;
+        top: 1300px;
+        transform: rotateZ(-90deg);
+    }
+    .personal__header {
+        flex-direction: column;
+        width: 34%;
+        margin: 0 auto;
+        & li {
+            margin-top: 30px;
+        }
+    }
+}
+@media screen and (max-width: 768px) {
+    .header__logo {
+        left: 30px;
+    }
+    .header__menu {
+        width: 17%;
+    }
+    .header__btn {
+        left: 150px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .header__menu {
+        padding-left: 10px;
+    }
+    .slick-dots {
+        margin-top: 80px;
+    }
+    .header__btn {
+        left: 40%;
+    }
+    .about__slider-item img {
+        width: 100%;
+    }
+    .slick-arrow {
+        display: none;
+        opacity: 0;
+    }
+    .accordionTitle {
+        font-size: 20px;
+    }
+    .bg__stuff {
+        top: 255px;
+    }
+    .price__social {
+        margin-top: 100px;
+        & img {
+            width: 100%;
+        }
+    }
+    .personal__logo {
+        width: 80%;
+    }
+    .personal__background {
+        left: -300px;
+        top: 1040px;
+    }
+    .personal__header li img {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 370px) {
+    .header__logo {
+        width: 100%;
+    }
+    .header__menu {
+        width: 30%;
+    }
+    .header__slider-item {
+        font-size: 14px;
+        text-align: center;
+    }
+    .header__slider span {
+        font-size: 14px;
+    }
+    .slick-dots {
+        margin-top: -150px;
+        float: left;
+        transform: rotateZ(90deg);
+    }
+    .header__btn {
+        font-size: 20px;
+        left: 45%;
+    }
+    .about__title-name {
+        font-size: 20px;
+    }
+    .about__title-text {
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    .about__slider-item-text {
+        font-size: 50px;
+    }
+    .accordionTitle {
+        font-size: 10px;
+    }
+    .accordion dd, .accordion__panel {
+        font-size: 9px;
+    }
+    .price__social {
+        margin-top: 100px;
+        & img {
+            width: 80%;
+        }
+    }
+    .bg__stuff {
+        width: 50%;
+    }
+    .bg__crown {
+        width: 50%;
+    }
+    .price__btn {
+        margin-top: 60px;
+        padding: 24px;
+        font-size: 20px;
+    }
+    .personal__coach span {
+        font-size: 20px;
+    }
+    .personal__background {
+        font-size: 120px;
+        left: -230px;
+        top: 715px;
+    }
+    .footer__text {
+        font-size: 13px;
+        margin-top: 110px;
+    }
+}
