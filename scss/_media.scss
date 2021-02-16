@@ -195,3 +195,34 @@
         margin-top: 110px;
     }
 }
+@media screen and (max-width: 470px) {
+    .header__menu-icons-items img {
+        width: 40%;
+    }
+    .header__menu-icons a span {
+        padding-top: 5px;
+        font-size: 10px;
+    }
+    .slick-dots {
+        margin-left: -100px;
+    }
+    .about__title {
+        margin: 0;
+        padding: 0 10px;
+    }
+    .about__slider-item-text {
+        font-size: 20px;
+    }
+    .accordionTitle {
+        font-size: 8px;
+    }
+    .accordion p {
+        font-size: 8px;
+    }
+    .price__btn {
+        font-size: 12px;
+    }
+    .footer__text {
+        font-size: 10px;
+    }
+}
