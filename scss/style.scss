@@ -3,7 +3,11 @@
 @import "fonts";
 @import "_global";
 
-
+*,
+::after,
+::before {
+  box-sizing:border-box;
+}
 .container {
     max-width: 1690px;
     margin: 0 115px;

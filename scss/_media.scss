@@ -108,35 +108,48 @@
     }
 }
 @media screen and (max-width: 470px) {
+    .header {
+        padding-top: 0;
+    }
     .header__logo {
         width: 100%;
     }
     .header__menu {
-        width: 30%;
+        width: 25%;
+        padding-left: 0;
+    }
+    .header__menu-icons a {
+        font-size: 15px;
     }
     .header__slider-item {
         font-size: 14px;
         text-align: center;
     }
+    .header__slider {
+        margin-left: 80px;
+        width: 70%;
+    }
     .header__slider span {
         font-size: 14px;
     }
     .slick-dots {
-        margin-top: -35px;
+        margin-top: -90px;
         float: left;
-        transform: rotateZ(90deg);
-        margin-left: 40px;
+        transform: rotateZ(360deg);
+        margin-left: -15px;
+        margin-top: 30px;
+        justify-content: space-around;
     }
     .header__btn {
         font-size: 20px;
-        left: 45%;
+        left: 40%;
     }
     .about__title-name {
         font-size: 20px;
     }
     .about__title-text {
-        margin-top: 25px;
-        font-size: 15px;
+        margin-top: 15px;
+        font-size: 10px;
     }
     .about__slider-item-text {
         font-size: 50px;
@@ -154,10 +167,11 @@
         }
     }
     .bg__stuff {
-        width: 50%;
+        width: 40%;
     }
     .bg__crown {
-        width: 50%;
+        width: 40%;
+        right: 0;
     }
     .price__btn {
         margin-top: 60px;
@@ -166,13 +180,14 @@
     }
     .personal__logo {
         margin-top: 0;
+        width: 40%;
     }
     .personal__coach span {
         font-size: 20px;
     }
     .personal__background {
-        font-size: 120px;
-        left: -230px;
+        font-size: 70px;
+        left: -75px;
         top: 715px;
     }
     .footer__text {
